@@ -1,0 +1,64 @@
+default:
+  dmDateTimePickerPlugin:
+    default_theme: admin
+    themes:
+      admin:
+        defaults:
+          ui_button_open: ~
+          ui_button_clear: ~
+          ui_show_button_panel: ~
+####  IMPORTANT NOTES ####
+# All other settings for #
+# datetime picker are    #
+# taken from respective  #
+# date and time picker   #
+# theme settings         #
+##########################
+
+
+  dmDatePickerPlugin:
+    default_theme: admin
+    themes:
+      admin:
+        wrapper_class: dm
+        css_files:
+          - lib.ui
+          - lib.ui-datepicker
+          - dmDateTimePickerPlugin.basic
+        defaults:
+          ui_date_format:
+            default: ~
+            en: ~
+          ui_number_of_months: ~
+          ui_show_button_panel: ~
+          ui_change_month: ~
+          ui_change_year: ~
+          ui_constrain_input: ~
+          ui_button_open: ~
+          ui_button_clear: ~
+
+  dmTimePickerPlugin:
+    default_theme: admin
+    themes:
+      admin:
+        wrapper_class: dm
+        css_files:
+          - lib.ui
+          - lib.ui-datepicker
+          - lib.ui-slider
+          - dmDateTimePickerPlugin.basic
+          - dmDateTimePickerPlugin.tp-add-on
+        defaults:
+          ui_time_format:
+            default: ~
+            en: ~
+          ui_control_type: ~
+          ui_show_button_panel: ~
+          ui_step_hour: ~
+          ui_step_minute: ~
+          ui_step_second: ~
+          ui_hour_grid: ~
+          ui_minute_grid: ~
+          ui_second_grid: ~
+          ui_button_open: ~
+          ui_button_clear: ~

@@ -1,0 +1,12 @@
+js:
+  dmDateTimePickerPlugin: 
+    tp-add-on:                      jquery-ui-timepicker-addon
+    tp-add-on-i18n:                 i18n/jquery-ui-timepicker-%culture%
+    date-picker:                    dmDatePickerPlugin
+    time-picker:                    dmTimePickerPlugin
+    date-time-picker:               dmDateTimePickerPlugin
+
+css:
+  dmDateTimePickerPlugin:
+    basic:                          basic
+    tp-add-on:                      jquery-ui-timepicker-addon
